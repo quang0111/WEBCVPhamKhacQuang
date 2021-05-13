@@ -1,18 +1,21 @@
-import './App.scss';
-import About from './layout/About';
-import Experience from './layout/Experience';
-import Project from './layout/Project';
-import Skill from './layout/Skill';
-
+import "./App.css";
+import Activities from "./components/Activities";
+import Contact from "./components/Contact";
+import Experience from "./components/Experience";
+import Header from "./components/Header";
+import Home from "./components/Home";
+import Skill from "./components/Skill";
 
 function App() {
-
   return (
-    <>
-      <About />
+    <div className="App">
+      <Header />
+      <Home />
       <Skill />
       <Experience />
-    </>
+      <Activities />
+      <Contact />
+    </div>
   );
 }
 
